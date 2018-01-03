@@ -4,7 +4,7 @@ border:0;
 font-family: sans;
 color: white;
 text-transform: capitalize;
-background: url("/Dev/images/homebg.jpg");
+background: url("/website/images/homebg.jpg");
 background-size:cover; 
 }
 
@@ -19,7 +19,7 @@ background-size:cover;
 
 @font-face {
     font-family: sans;
-    src: url("/Dev/fonts/Sansation-Light.ttf");
+    src: url("/website/fonts/Sansation-Light.ttf");
     format('truetype');
 }
 a{
@@ -86,13 +86,13 @@ text-align:center;
 background-filter:alpha(opacity=50);
 }
 .iq{
-background: url("/Dev/images/iqlogo.png") ;
+background: url("/website/images/iqlogo.png") ;
 background-size:100% 80% ;
 background-repeat: no-repeat; 
 font-size:250px;
 }
 .outbox{
-background: url("/Dev/images/gift-box (1).png");
+background: url("/website/images/gift-box (1).png");
 background-size:cover; 
 }
 .lazer{
@@ -100,16 +100,16 @@ border-top-left-radius:100px;
 border-top-right-radius:100px;
 background-size:100% 80% ;
 background-repeat: no-repeat; 
-background: url("/Dev/images/lazerhome.png");
+background: url("/website/images/lazerhome.png");
 background-size:cover; 
 }
 .isis{
-background: url("/Dev/images/isishome.png");
+background: url("/website/images/isishome.png");
 background-size:100% 80% ;
 background-repeat: no-repeat; 
 }
 .craze{
-background: url("/Dev/images/crazehome.png");
+background: url("/website/images/crazehome.png");
 background-size:contain;
 background-repeat: no-repeat;
 font-size:0%;
@@ -121,7 +121,7 @@ margin-top:-20%;
 padding:50px;
 font-size:0%;
 text-shadow: 2px 1px white;
-background: url("/Dev/images/iqhover.jpg") 50%;
+background: url("/website/images/iqhover.jpg") 50%;
 background-size:cover;
 }
 #content.lazer:active,
@@ -132,7 +132,7 @@ border-top-left-radius:0px;
 border-top-right-radius:0px;
 padding:50px;
 font-size:0%;
-background: url("/Dev/images/lazerhover.jpg") 50%;
+background: url("/website/images/lazerhover.jpg") 50%;
 background-size:cover;
 }
 #content.isis:active,
@@ -141,7 +141,7 @@ cubic-bezier(15,15,15,15);
 margin-top:-20%;
 padding:50px;
 font-size:0%;
-background: url("/Dev/images/isishover.jpg") 30%;
+background: url("/website/images/isishover.jpg") 30%;
 background-size:cover;
 }
 #content.outbox:active,
@@ -151,7 +151,7 @@ cubic-bezier(15,15,15,15);
 margin-top:-20%;
 padding:50px;
 font-size:0%;
-background: url("/Dev/images/iqhover.jpg") 50%;
+background: url("/website/images/iqhover.jpg") 50%;
 background-size:cover;
 }
 #content.craze:active,
@@ -161,7 +161,7 @@ cubic-bezier(15,15,15,15);
 margin-top:-20%;
 padding:50px;
 font-size:0%;
-background: url("/Dev/images/iqhover.jpg") 50%;
+background: url("/website/images/iqhover.jpg") 50%;
 background-size:cover;
 }
 #footer{
