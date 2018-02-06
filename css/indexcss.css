@@ -8,14 +8,6 @@ background: url("/website/images/homebg.jpg");
 background-size:cover; 
 }
 
-@keyframes infinite-spinning {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
 @font-face {
     font-family: sans;
@@ -84,36 +76,9 @@ display:inline-block;
 font-size:200%;
 text-align:center;
 background-filter:alpha(opacity=50);
+background: linear-gradient(black, #262424 , black);
 }
-.iq{
-background: url("/website/images/iqlogo.png") ;
-background-size:100% 80% ;
-background-repeat: no-repeat; 
-font-size:250px;
-}
-.outbox{
-background: url("/website/images/gift-box (1).png");
-background-size:cover; 
-}
-.lazer{
-border-top-left-radius:100px;
-border-top-right-radius:100px;
-background-size:100% 80% ;
-background-repeat: no-repeat; 
-background: url("/website/images/lazerhome.png");
-background-size:cover; 
-}
-.isis{
-background: url("/website/images/isishome.png");
-background-size:100% 80% ;
-background-repeat: no-repeat; 
-}
-.craze{
-background: url("/website/images/crazehome.png");
-background-size:contain;
-background-repeat: no-repeat;
-font-size:0%;
-}
+
 #content.iq:active,
 #content.iq:hover{
 cubic-bezier(15,15,15,15);
