@@ -8,7 +8,6 @@ background: url("/website/images/homebg.jpg");
 background-size:cover; 
 }
 
-
 @font-face {
     font-family: sans;
     src: url("/website/fonts/Sansation-Light.ttf");
@@ -35,10 +34,9 @@ border-bottom-right-radius:100px;
 border-width:0px 15px 5px 0px black;
 }
 #header{
-padding:50px;
+padding:10px;
 left:0px;
-height:50px;
-width:50px;
+height:100px;
 line-height: 1.25;
 position:relative;
 border:1px;
@@ -46,7 +44,12 @@ font-size:50px;
 text-indent:60px;
 text-shadow: 2px 1px black;
 background: linear-gradient(to right, rgba(0,0,0,3), rgba(0,0,0,0));
-box-shadow: inset 4px 4px 4px #262424;
+}
+#header.tagline{
+margin-top:-10px;
+font-size:15px;
+background:none;
+text-indent:64px;
 }
 
 #content{
@@ -58,9 +61,50 @@ height:450px;
 #content.outbox,
 #content.isis,
 #content.craze{
-
+margin-left:20px;
+margin-bottom:90px;
+position:relative;
+padding:20px;
+height:130px;
+width:130px;
+top:30%;
+left:15%;
+transition: all 200ms ease;
+overflow: hidden;
+display:inline-block;
+font-size:200%;
+text-align:center;
+background-filter:alpha(opacity=50);
 }
-
+.iq{
+background: url("/website/images/iqlogo.png") ;
+background-size:100% 80% ;
+background-repeat: no-repeat; 
+font-size:250px;
+}
+.outbox{
+background: url("/website/images/gift-box (1).png");
+background-size:cover; 
+}
+.lazer{
+border-top-left-radius:100px;
+border-top-right-radius:100px;
+background-size:100% 80% ;
+background-repeat: no-repeat; 
+background: url("/website/images/lazerhome.png");
+background-size:cover; 
+}
+.isis{
+background: url("/website/images/isishome.png");
+background-size:100% 80% ;
+background-repeat: no-repeat; 
+}
+.craze{
+background: url("/website/images/crazehome.png");
+background-size:contain;
+background-repeat: no-repeat;
+font-size:0%;
+}
 #content.iq:active,
 #content.iq:hover{
 cubic-bezier(15,15,15,15);
