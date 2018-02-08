@@ -48,12 +48,6 @@ text-shadow: 2px 1px black;
 background: linear-gradient(to right, rgba(0,0,0,3), rgba(0,0,0,0));
 box-shadow: inset 4px 4px 4px #262424;
 }
-#header.tagline{
-margin-top:-10px;
-font-size:15px;
-background:none;
-text-indent:64px;
-}
 
 #content{
 padding:0px;
