@@ -77,13 +77,13 @@ text-align:center;
 background-filter:alpha(opacity=50);
 }
 .iq{
-background: url("/website/images/iqlogo.png") ;
+background: none ;
 background-size:100% 80% ;
 background-repeat: no-repeat; 
 font-size:250px;
 }
 .outbox{
-background: url("/website/images/gift-box (1).png");
+background: none;
 background-size:cover; 
 }
 .lazer{
@@ -91,16 +91,16 @@ border-top-left-radius:100px;
 border-top-right-radius:100px;
 background-size:100% 80% ;
 background-repeat: no-repeat; 
-background: url("/website/images/lazerhome.png");
+background: none;
 background-size:cover; 
 }
 .isis{
-background: url("/website/images/isishome.png");
+background: none;
 background-size:100% 80% ;
 background-repeat: no-repeat; 
 }
 .craze{
-background: url("/website/images/crazehome.png");
+background:none;
 background-size:contain;
 background-repeat: no-repeat;
 font-size:0%;
@@ -112,7 +112,7 @@ margin-top:-20%;
 padding:50px;
 font-size:0%;
 text-shadow: 2px 1px white;
-background: url("/website/images/iqhover.jpg") 50%;
+background:none;
 background-size:cover;
 }
 #content.lazer:active,
@@ -123,7 +123,7 @@ border-top-left-radius:0px;
 border-top-right-radius:0px;
 padding:50px;
 font-size:0%;
-background: url("/website/images/lazerhover.jpg") 50%;
+background:none;
 background-size:cover;
 }
 #content.isis:active,
@@ -132,7 +132,7 @@ cubic-bezier(15,15,15,15);
 margin-top:-20%;
 padding:50px;
 font-size:0%;
-background: url("/website/images/isishover.jpg") 30%;
+background: none;
 background-size:cover;
 }
 #content.outbox:active,
@@ -142,7 +142,7 @@ cubic-bezier(15,15,15,15);
 margin-top:-20%;
 padding:50px;
 font-size:0%;
-background: url("/website/images/iqhover.jpg") 50%;
+background: none;
 background-size:cover;
 }
 #content.craze:active,
@@ -152,7 +152,7 @@ cubic-bezier(15,15,15,15);
 margin-top:-20%;
 padding:50px;
 font-size:0%;
-background: url("/website/images/iqhover.jpg") 50%;
+background: none;
 background-size:cover;
 }
 #footer{
